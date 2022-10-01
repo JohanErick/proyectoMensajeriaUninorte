@@ -23,7 +23,7 @@ body {
 }
 
 
-#blog {
+#mensaje {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,24 +32,24 @@ body {
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
-.blog-heading {
+.mensaje-heading {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.blog-heading span {
-    color: #f33c3c;
+.mensaje-heading span {
+    color: #03A9F4;
 }
 
-.blog-heading h3 {
+.mensaje-heading h3 {
     font-size: 2.4rem;
     color: #2b2b2b;
     font-weight: 600;
 }
 
-.blog-container {
+.mensaje-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,48 +57,48 @@ body {
     flex-wrap: wrap;
 }
 
-.blog-box {
+.mensaje-box {
     width: 350px;
     background-color: #fff;
     border: 1px solid #ececec;
     margin: 20px;
 }
 
-.blog-img {
+.mensaje-img {
     width: 100%;
     height: auto;
 }
 
-.blog-img img {
+.mensaje-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
 }
 
-.blog-text {
+.mensaje-text {
     padding: 30px;
     display: flex;
     flex-direction: column;
 }
 
-.blog-text span {
-    color: #f33c3c;
+.mensaje-text span {
+    color: #03A9F4;
     font-size: 0.9rem;
 }
 
-.blog-text .blog-title {
+.mensaje-text .mensaje-title {
     font-size: 1.3rem;
     font-weight: 500;
     color: #272727;
 }
 
-.blog-text .blog-title:hover {
+.blomensajeg-text .mensaje-title:hover {
     color: #f33c3c;
     transition: all ease 0.3s;
 }
 
-.blog-text p {
+.mensaje-text p {
     color: #9b9b9b;
     font-size: 0.9rem;
     display: -webkit-box;
@@ -109,11 +109,11 @@ body {
     margin: 20px 0px;
 }
 
-.blog-text a {
+.mensaje-text a {
     color: #0f0f0f;
 }
 
-.blog-text a:hover {
+.mensaje-text a:hover {
     color: #f33c3c;
     transition: all ease 0.3s;
 }
@@ -121,7 +121,7 @@ body {
 
 @media (max-width: 1100px) {
 
-    .blog-box {
+    .mensaje-box {
         width: 70%;
     }
 
@@ -129,12 +129,12 @@ body {
 
 @media (max-width: 550px) {
 
-    .blog-box {
+    .mensaje-box {
         margin: 20px 10px;
         width: 100%;
     }
 
-    #blog {
+    #mensaje {
         padding: 20px;
     }
 
